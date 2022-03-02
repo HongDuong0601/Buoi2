@@ -1,0 +1,69 @@
+main{
+    width : 900px;
+	/* căn giữa */
+    margin: 0 auto 0 auto;
+   
+}
+a:link{
+    text-decoration: none;
+} 
+
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+a:visited{
+    text-decoration: grey;
+}
+
+header{
+    width : 900px;
+    height: 143px;
+    background: url(../images/banner.jpg);
+}
+
+section{
+    width : 900px;
+}
+
+aside{
+    width : 220px;/* kéo khung*/
+    float: left;
+   
+}
+aside h2{
+    color: blue;
+    background: url(../images/t_l.gif);
+    height: 30px;
+    font-size: 20px;
+    padding: 5px 0px 0px 5px;   /* khoảng không */
+    box-sizing: border-box;    /*ko ảnh hưởng chiều cao*/
+    margin-bottom: 0 ;/* làm mất lề dưới */
+}
+aside ul {
+    list-style-image: url(../images/pencil.png); /* icon ds*/
+    padding: 5px 0px 5px 24px;/* trên phải dưới trái*/
+    border: solid 1px blue;  /* đường viền */
+    margin-top: 0; /* làm mất lề trên */
+}
+
+article{
+    width : 670px;/* chừa 10px khoảng trắng của bài*/
+    float: right; /*vị trí trôi về bên phải */
+    background: url(../images/bg_post.gif) no-repeat bottom right;/* không lặp đi lặp lại _ nằm dưới góc phải*/
+}
+
+article p {
+    text-align: justify;/* căn đều 2 bên*/
+}
+footer{
+    width : 900px;
+    height: 50px;
+    background: #1e90ff;
+    clear:both;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 15px;
+}
